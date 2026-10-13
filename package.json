@@ -1,0 +1,22 @@
+{
+  "name": "agriadvisor-ai",
+  "version": "1.0.0",
+  "description": "AgriAdvisor AI — Precision Localized Crop Intelligence & Farming Assistant",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "agriculture",
+    "crop-advisory",
+    "gemini-2.5",
+    "supabase",
+    "multimodal-vision",
+    "agritech"
+  ],
+  "author": "AgriAdvisor AI Systems",
+  "license": "MIT"
+}
